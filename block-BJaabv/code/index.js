@@ -8,12 +8,10 @@
   * [ ] Add an additional argument to the function that takes the conversion rate of human to dog years.
 */
 
-function calculateDogAge(age = 0, dogYear = 0) {
-  return dogYear;
+function calculateDogAge(age = 0, dogYear = 7) {
+  return age * dogYear;
 }
-let dogAge = 4
-let humanToDogYears = 7 * dogAge;
-calculateDogAge(dogAge,humanToDogYears);
+calculateDogAge(4);
 
 /*
 2. 🎖Write a function named calculateMoviesToWatch that:
